@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    
+    <title>My Sparta Document</title>
+    <!-- CSS is written inside style tag -->
+    
+    <!-- I imported my styles.css here using link tag-->
+    <!-- relation would be stylesheet -->
+    <link rel="stylesheet" type="text/css" href = "styles.css"/>
+
+    <!-- Link is used to establish some kind of a link between external files/resources -->
+    <!-- Rel: is used to establish the relationship between the resource -->
+    <!-- preconnect, before the webpage is loaded, have a connection setup to fonts.googleapis.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <!-- rel=stylesheet means that the relationship will be of stylesheet type
+    or in other words, the mentioned resource is a stylesheet-->
+
+    <!-- The font will be downloaded from the link itself, User will not
+    have to do anything -->
+</head>
+<body>
+    <!-- I appled this .mycontainer class to my div -->
+    <!-- We are applying styling to div -->
+    <div class="myWrap">
+    <!-- I applied wrap class to all the content of the webpage -->
+    <!-- MyWrap class properties will be propogated to all of its children -->
+
+        <div class="mycontainer">
+            <!-- I have a given a class to this div -->
+            <!-- Let's see how we can style this div using the class name -->
+            <h1>Login Page</h1>
+            Type your ID and PW
+            
+        </div>
+            <p>ID:<input type="text"></p>
+            <p>PW:<input type="password"></p>
+            <button>Login</button>
+        <div>
+    </div>
+    
+</body>
+
+</html>
